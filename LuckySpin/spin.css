@@ -1,0 +1,10 @@
+.spinCss{
+   
+    border: 27px solid transparent; /*2*/
+    background: linear-gradient(180deg, #996900 6.5%, #FFF5C2 24.5%, #FFDE62 42.5%, #8A500E 60%, #521D00 76.5%, #D9A125 94%) border-box; /*3*/
+    -webkit-mask: /*4*/
+       linear-gradient(#fff 0 0) padding-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; /*5'*/
+            mask-composite: exclude; /*5*/
+}
